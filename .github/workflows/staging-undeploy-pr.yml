@@ -55,7 +55,7 @@ jobs:
           add-labels: 'automated-block-deploy'
 
       - name: Check out repo's default branch
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
         with:
           # For enhanced security: https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
           persist-credentials: 'false'
